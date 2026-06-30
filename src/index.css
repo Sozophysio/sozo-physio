@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #01BED2;
+  --color-secondary: #16959B;
+  --color-accent: #8AB63C;
+  --color-dark: #20325E;
+  --color-soft: #DDF4F6;
+  --color-secondaryDark: #165E7D;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
