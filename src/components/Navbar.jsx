@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-2 md:px-4 lg:px-6 flex items-center justify-between h-22">
         {/* Logo */}
         <div className="flex items-center">
-          <img src={logo} alt="Sozo Physio" className="h-14 md:h-28" />
+          <img src={logo} alt="Sozo Physio" className="h-18 md:h-28" />
         </div>
 
         {/* Desktop Right Section */}

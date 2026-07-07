@@ -141,7 +141,7 @@ const ServicesSection = () => {
                           {service.title}
                         </h3>
 
-                        <p className="text-sm md:text-base text-white/90 leading-relaxed max-w-[90%]">
+                        <p className="text-xs md:text-base text-white/90 leading-relaxed max-w-[90%]">
                           {service.desc}
                         </p>
                       </div>

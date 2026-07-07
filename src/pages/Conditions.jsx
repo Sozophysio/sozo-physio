@@ -1,67 +1,61 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import heroImg from "../assets/services_hero.webp";
-import img1 from "../assets/clinical_pilates.webp";
-import img2 from "../assets/exercise_rehabilitation.webp";
-import img3 from "../assets/dry_needling.webp";
-import img4 from "../assets/cup_therapy.webp";
-import img5 from "../assets/medicare_care_plan.webp";
-import img6 from "../assets/work_cover.jpg";
-import img7 from "../assets/pre_post_surgery.webp";
+import heroImg from "../assets/condition_hero.webp";
+import con1 from "../assets/lower_back.webp";
+import con2 from "../assets/neck_pain.webp";
+import con3 from "../assets/spine.webp";
+import con4 from "../assets/shoulder.webp";
+import con5 from "../assets/posture.webp";
+import con6 from "../assets/sports_injury.webp";
+import con7 from "../assets/sciatica.webp";
 import img8 from "../assets/sport_physio.jpg";
 import CTAImg from "../assets/physio_cta.webp";
 import { FaCalendarAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Services = () => {
-  const services = [
+const Conditions = () => {
+  const conditions = [
     {
-      image: img1,
-      title: "Clinical Pilates",
-      slug: "clinical-pilates",
+      title: "Back Pain",
+      image: con1,
+      slug: "lower-back-pain",
       desc: "Improve core strength, posture, flexibility, and balance with physiotherapist-guided Pilates. Each program is tailored to your condition to support recovery, prevent injury, and enhance movement.",
     },
     {
-      image: img2,
-      title: "Exercise Rehab",
-      slug: "exercise-rehab",
+      title: "Neck Pain",
+      image: con2,
+      slug: "neck-pain",
       desc: "Personalized rehabilitation programs designed to restore strength, mobility, and function after injury or surgery. We guide you through progressive exercises to safely return to daily activities, work, and sport.",
     },
     {
-      image: img3,
-      title: "Dry Needling",
-      slug: "dry-needling",
-      desc: "A targeted treatment that uses fine needles to release muscle tension and reduce pain. Helps improve circulation, mobility, and recovery from injuries and chronic muscle tightness.",
+      title: "Spinal Conditions",
+      image: con3,
+      slug: "spinal-conditions",
+      desc: "Personalized rehabilitation programs designed to restore strength, mobility, and function after injury or surgery. We guide you through progressive exercises to safely return to daily activities, work, and sport.",
     },
     {
-      image: img4,
-      title: "Cupping Therapy",
-      slug: "cupping-therapy",
-      desc: "A soft tissue therapy that uses suction to improve blood flow and relieve muscle tension. Supports pain relief, reduces stiffness, and promotes faster recovery.",
+      title: "Shoulder Pathology",
+      image: con4,
+      slug: "shoulder-pain",
+      desc: "Personalized rehabilitation programs designed to restore strength, mobility, and function after injury or surgery. We guide you through progressive exercises to safely return to daily activities, work, and sport.",
     },
     {
-      image: img5,
-      title: "Medicare Care",
-      slug: "medicare-care",
-      desc: "Physiotherapy services available under Medicare Care Plans for eligible patients with chronic conditions. We focus on improving mobility, reducing pain, and supporting long-term health outcomes.",
+      title: "Postural Issues",
+      image: con5,
+      slug: "postural-issues",
+      desc: "Personalized rehabilitation programs designed to restore strength, mobility, and function after injury or surgery. We guide you through progressive exercises to safely return to daily activities, work, and sport.",
     },
     {
-      image: img6,
-      title: "Work Rehab",
-      slug: "work-rehab",
-      desc: "Physiotherapy support for workplace and motor vehicle injuries under WorkCover and TAC. We focus on recovery, pain management, and safe return to work and daily activities.",
+      title: "Sport Injuries",
+      image: con6,
+      slug: "sports-injuries",
+      desc: "Personalized rehabilitation programs designed to restore strength, mobility, and function after injury or surgery. We guide you through progressive exercises to safely return to daily activities, work, and sport.",
     },
     {
-      image: img7,
-      title: "Surgery Rehab",
-      slug: "pre-post-surgery",
-      desc: "Pre and post-surgery rehabilitation programs to improve recovery and restore function. We help reduce pain, rebuild strength, and safely return you to normal activities.",
-    },
-    {
-      image: img8,
-      title: "Sports Physio",
-      slug: "sports-physio",
-      desc: "Specialized care for sports injuries, performance, and injury prevention. Tailored treatment plans help you recover faster and perform at your best.",
+      title: "Sciatica",
+      image: con7,
+      slug: "sciatica",
+      desc: "Personalized rehabilitation programs designed to restore strength, mobility, and function after injury or surgery. We guide you through progressive exercises to safely return to daily activities, work, and sport.",
     },
   ];
   return (
@@ -85,23 +79,26 @@ const Services = () => {
           <div>
             {/* Breadcrumb */}
             <p className="text-sm text-gray-600 mb-4">
-              Home / <span className="text-dark font-medium">Services</span>
+              Home /{" "}
+              <span className="text-dark font-medium">Conditions We Treat</span>
             </p>
 
             {/* Label */}
-            <p className="text-accent font-semibold mb-3">OUR SERVICES</p>
+            <p className="text-accent font-semibold mb-3">
+              CONDITIONS WE TREAT
+            </p>
 
             {/* Heading */}
             <h1 className="text-3xl md:text-5xl font-bold text-dark leading-tight md:leading-[1.3] mb-6">
-              Physiotherapy
+              We Treat The Root Cause,
               <br />
-              <span className="text-primary">Services</span>
+              <span className="text-primary">Not Just The Symptoms</span>
             </h1>
 
             {/* Description */}
             <p className="text-gray-700 mb-8 max-w-lg">
-              Personalized treatments designed to help you move better, feel
-              stronger, and live a pain-free life.
+              Personalised physiotherapy care for a wide range of conditions to
+              help you move better, feel stronger and live pain-free.
             </p>
 
             <div className="flex gap-16 mt-4">
@@ -129,10 +126,8 @@ const Services = () => {
               alt="Physiotherapy Services"
               className="w-full h-full object-cover rounded-[30px]"
             />
-
             {/* TOP CURVE */}
             {/* <div className="absolute top-0 left-0 w-60 h-20 bg-secondary rounded-br-[100px] opacity-70" /> */}
-
             {/* BOTTOM CURVE */}
             {/* <div className="absolute bottom-0 right-0 w-90 h-16 bg-gradient-to-t from-dark to-dark/70 rounded-tl-[120px] opacity-70" /> */}
           </div>
@@ -144,44 +139,45 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-8">
           {/* HEADER */}
           <div className="text-center mb-10">
-            <p className="text-accent font-semibold mb-2">WHAT WE OFFER</p>
+            <p className="text-accent font-semibold mb-2">
+              CONDITIONS WE TREAT
+            </p>
 
             <h2 className="text-2xl md:text-3xl font-bold text-dark mb-3">
-              Comprehensive Care Tailored to You
+              Common Conditions We Help With
             </h2>
 
             <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base leading-relaxed line-clamp-3">
-              Explore our range of physiotherapy services designed to address
-              your unique needs and help you achieve long-term recovery and
-              wellness.
+              Our evidence-based approach targets the root cause of your pain
+              and supports long-term recovery and prevention.
             </p>
           </div>
 
           {/* GRID */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service, index) => (
+            {conditions.map((condition, index) => (
               <div key={index}>
                 {/* CARD */}
                 <div className="bg-[#f5f5f5] rounded-xl shadow-sm hover:-translate-y-1 hover:shadow-lg transition-all duration-300 overflow-hidden group flex flex-col h-full">
                   {/* IMAGE */}
                   <img
-                    src={service.image}
-                    alt={service.title}
+                    src={condition.image}
+                    alt={condition.title}
                     className="w-full h-48 md:h-52 object-cover"
                   />
 
                   {/* CONTENT */}
                   <div className="p-5 flex flex-col flex-grow">
                     <h3 className="font-semibold text-dark mb-2 text-[15px]">
-                      {service.title}
+                      {condition.title}
                     </h3>
 
                     <p className="text-sm text-gray-600 mb-4 leading-relaxed line-clamp-3 min-h-[72px]">
-                      {service.desc}
+                      {condition.desc}
                     </p>
 
                     <Link
-                      to={`/services/${service.slug}`}
+                      to={`/conditions/${condition.slug}`}
                       className="mt-auto text-accent font-medium text-sm flex items-center gap-1 group-hover:gap-2 transition-all"
                     >
                       Learn More →
@@ -248,4 +244,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Conditions;
