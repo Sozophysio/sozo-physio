@@ -32,7 +32,7 @@ const Hero = () => {
             href="https://sozo-physiotherapy.au5.cliniko.com/bookings#service"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center mt-6 gap-2 bg-accent text-white px-6 py-3 rounded-full shadow-md hover:shadow-lg font-medium hover:opacity-90 transition"
+            className="inline-flex items-center mt-6 gap-2 bg-primary text-white px-6 py-3 rounded-full shadow-md hover:shadow-lg font-medium hover:opacity-90 transition"
           >
             Book Appointment
           </a>

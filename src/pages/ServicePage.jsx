@@ -148,7 +148,7 @@ const ServicePage = () => {
                   {leftItems.map((item, i) => (
                     <div key={i}>
                       <div className="flex items-center gap-3">
-                        <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center">
+                        <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
                           <FaCheck className="text-white text-sm" />
                         </div>
 
@@ -165,7 +165,7 @@ const ServicePage = () => {
                   {rightItems.map((item, i) => (
                     <div key={i}>
                       <div className="flex items-center gap-3">
-                        <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center">
+                        <div className="w-6 h-6 rounded-full bg-primary flex items-center justify-center flex-shrink-0">
                           <FaCheck className="text-white text-sm" />
                         </div>
 
