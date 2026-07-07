@@ -1,4 +1,5 @@
 import logo from "../assets/logo_crop.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
             <div className="bg-white rounded-md inline-block mb-4 p-3">
               <img src={logo} alt="Sozo Physio" className="w-26" />
             </div>
-            <p className="text-sm text-white/90 leading-relaxed">
+            <p className="text-md text-white/90 leading-relaxed">
               Helping you move better, feel stronger and live pain-free.
             </p>
           </div>
@@ -20,11 +21,35 @@ const Footer = () => {
           <div className="md:border-r md:border-white/20 md:pr-6">
             <h4 className="font-semibold mb-4">QUICK LINKS</h4>
             <ul className="space-y-2 text-sm text-white/90">
-              <li className="hover:text-white cursor-pointer">Home</li>
-              <li className="hover:text-white cursor-pointer">Services</li>
-              <li className="hover:text-white cursor-pointer">About Us</li>
-              <li className="hover:text-white cursor-pointer">Conditions</li>
-              <li className="hover:text-white cursor-pointer">Contact</li>
+              <li>
+                <NavLink to="/" className="hover:text-accent transition-colors">
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services"
+                  className="hover:text-accent transition-colors"
+                >
+                  Services
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/about"
+                  className="hover:text-accent transition-colors"
+                >
+                  About Us
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/conditions"
+                  className="hover:text-accent transition-colors"
+                >
+                  Conditions
+                </NavLink>
+              </li>
             </ul>
           </div>
 
@@ -32,14 +57,70 @@ const Footer = () => {
           <div className="md:border-r md:border-white/20 md:pr-6">
             <h4 className="font-semibold mb-4">SERVICES</h4>
             <ul className="space-y-2 text-sm text-white/90">
-              <li>Clinical Pilates</li>
-              <li>Exercise Rehabilitation</li>
-              <li>Dry Needling</li>
-              <li>Cupping Therapy</li>
-              <li>Medicare Care Plan</li>
-              <li>WorkCover & TAC Rehabilitation</li>
-              <li>Surgery Rehabilitation</li>
-              <li>Sports Physiotherapy</li>
+              <li>
+                <NavLink
+                  to="/services/clinical-pilates"
+                  className="hover:text-accent transition-colors"
+                >
+                  Clinical Pilates
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services/exercise-rehab"
+                  className="hover:text-accent transition-colors"
+                >
+                  Exercise Rehabilitation
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services/dry-needling"
+                  className="hover:text-accent transition-colors"
+                >
+                  Dry Needling
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services/cupping-therapy"
+                  className="hover:text-accent transition-colors"
+                >
+                  Cupping Therapy
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services/medicare-care"
+                  className="hover:text-accent transition-colors"
+                >
+                  Medicare Care Plan
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services/work-rehab"
+                  className="hover:text-accent transition-colors"
+                >
+                  WorkCover & TAC Rehab
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services/pre-post-surgery"
+                  className="hover:text-accent transition-colors"
+                >
+                  Surgery Rehabilitation
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/services/sports-physio"
+                  className="hover:text-accent transition-colors"
+                >
+                  Sports Physiotherapy
+                </NavLink>
+              </li>
             </ul>
           </div>
 

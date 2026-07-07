@@ -27,14 +27,6 @@ const Navbar = () => {
             >
               Home
             </NavLink>
-            {/* <NavLink
-              to="/services"
-              className={({ isActive }) =>
-                isActive ? "text-primary" : "hover:text-primary"
-              }
-            >
-              Services
-            </NavLink> */}
             <div className="relative group">
               {/* MAIN LINK */}
               <NavLink

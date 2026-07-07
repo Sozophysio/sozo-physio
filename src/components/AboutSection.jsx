@@ -71,7 +71,7 @@ const AboutSection = () => {
                   <FaUser />
                 </div>
                 <div>
-                  <p className="text-sm min-h-[40px] leading-tight font-semibold text-dark">
+                  <p className="text-sm md:min-h-[40px] leading-tight font-semibold text-dark">
                     Personalized Care
                   </p>
                   <p className="text-xs text-gray-600">
@@ -86,7 +86,7 @@ const AboutSection = () => {
                   <FaFileAlt />
                 </div>
                 <div>
-                  <p className="pt-1 text-sm min-h-[40px] leading-tight font-semibold text-dark">
+                  <p className="pt-1 text-sm md:min-h-[40px] leading-tight font-semibold text-dark">
                     Evidence-based
                   </p>
                   <p className="text-xs text-gray-600">
@@ -101,7 +101,7 @@ const AboutSection = () => {
                   <FaChartLine />
                 </div>
                 <div>
-                  <p className="text-sm min-h-[40px] leading-tight font-semibold text-dark">
+                  <p className="text-sm md:min-h-[40px] leading-tight font-semibold text-dark">
                     Long-term Results
                   </p>
                   <p className="text-xs text-gray-600">
