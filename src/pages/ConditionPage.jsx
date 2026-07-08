@@ -60,7 +60,7 @@ const ConditionPage = () => {
       </div>
 
       {/* SYMPTOMS */}
-      <div className="max-w-7xl mx-auto px-8 py-8 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
         <div className="bg-[#EAF7F8] px-10 py-8 rounded-2xl grid md:grid-cols-2 gap-10 mb-10 shadow-lg">
           <div className="md:border-r md:border-gray-300/40 md:pr-6">
             <h3 className="font-semibold mb-3 text-secondaryDark">
@@ -98,7 +98,7 @@ const ConditionPage = () => {
       </div>
 
       {/* HOW WE HELP */}
-      <div className="max-w-7xl mx-auto px-8 py-8 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
         {/* TITLE */}
         <div className="text-center mb-10">
           <p className="text-accent font-semibold mb-2 text-sm">TREATMENT</p>
@@ -139,8 +139,8 @@ const ConditionPage = () => {
       </div>
 
       {/* COMMON CAUSES */}
-      <div className="max-w-7xl mx-auto px-8 py-8 md:py-10">
-        <div className="bg-[#EAF7F8] rounded-2xl px-8 py-6 flex flex-col md:flex-row items-start md:items-center gap-6 shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
+        <div className="bg-[#EAF7F8] rounded-2xl px-8 py-8 flex flex-col md:flex-row items-start md:items-center gap-6 shadow-sm">
           {/* LEFT SIDE */}
           <div className="min-w-[240px]">
             <p className="text-sm font-semibold text-accent">
@@ -178,7 +178,7 @@ const ConditionPage = () => {
 
       {/* CTA SECTION */}
       <div className="w-full py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="bg-gradient-to-r from-[#165E7D] to-[#1B6E8F] rounded-2xl group p-6 md:p-10 flex flex-col md:flex-row items-center gap-14 relative overflow-hidden">
             {/* LEFT IMAGE */}
             <div className="w-full md:w-1/3 items-stretch">

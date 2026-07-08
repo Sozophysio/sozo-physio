@@ -82,7 +82,7 @@ const About = () => {
 
       {/* MEET YOUR PHYSIO */}
       <section className="w-full py-10 md:py-14">
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="bg-[#f5f5f5] shadow-md rounded-2xl grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-8 lg:gap-12 items-center p-5 sm:p-6 lg:p-8">
             {/* LEFT IMAGE */}
             <div className="flex justify-center lg:justify-start">
@@ -191,7 +191,7 @@ const About = () => {
 
       {/* BEYOND THE CLINIC */}
       <section className="w-full py-10 md:py-14">
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="bg-gradient-to-b from-[#DDF4F6] to-[#EAF7F8] rounded-2xl p-6 md:p-8 shadow-md">
             <div className="grid md:grid-cols-[1fr_2fr] gap-8 items-center">
               {/* LEFT CONTENT */}
@@ -249,7 +249,7 @@ const About = () => {
 
       {/* CTA SECTION */}
       <div className="w-full py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="bg-gradient-to-r from-[#165E7D] to-[#1B6E8F] rounded-2xl group p-6 md:p-10 flex flex-col md:flex-row items-center gap-14 relative overflow-hidden">
             {/* LEFT IMAGE */}
             <div className="w-full md:w-1/3 items-stretch">

@@ -2,12 +2,14 @@ import { useParams } from "react-router-dom";
 import servicesData from "../data/servicesData";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import CTAImg from "../assets/physio_cta.webp";
 import {
   FaUser,
   FaBullseye,
   FaShieldAlt,
   FaUsers,
   FaCheck,
+  FaCalendarAlt,
 } from "react-icons/fa";
 
 const ServicePage = () => {
@@ -120,7 +122,7 @@ const ServicePage = () => {
       </div>
 
       {/* WE CAN HELP WITH */}
-      <div className="max-w-7xl mx-auto px-8 py-8 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12">
         <div className="bg-[#F5FAFB] rounded-2xl px-10 py-12 shadow-lg">
           {/* MAIN GRID */}
           <div className="grid md:grid-cols-2 gap-12 items-start">
@@ -191,6 +193,55 @@ const ServicePage = () => {
                 Every program is tailored to your individual needs and goals,
                 ensuring safe and effective results.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* CTA SECTION */}
+      <div className="w-full py-12 md:py-16">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <div className="bg-gradient-to-r from-[#165E7D] to-[#1B6E8F] rounded-2xl group p-6 md:p-10 flex flex-col md:flex-row items-center gap-14 relative overflow-hidden">
+            {/* LEFT IMAGE */}
+            <div className="w-full md:w-1/3 items-stretch">
+              <img
+                src={CTAImg}
+                alt="Physiotherapy"
+                className="w-full h-full h-52 md:h-64 object-cover rounded-[20px] md:rounded-[28px]"
+              />
+            </div>
+
+            {/* RIGHT CONTENT */}
+            <div className="w-full md:w-2/3 text-white">
+              <h2 className="text-xl md:text-3xl font-bold mb-6 leading-snug leading-[1.3] md:leading-[1.4]">
+                Ready to Move Better? <br />
+                <span className="text-accent">We’re Here to Help.</span>
+              </h2>
+
+              <p className="text-white/90 text-sm md:text-base mb-6 max-w-lg leading-relaxed">
+                Whether you're recovering from an injury, managing pain, or
+                looking to improve your physical performance, our team is here
+                to support you every step of the way.
+              </p>
+
+              <a
+                href="https://sozo-physiotherapy.au5.cliniko.com/bookings#service"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-white text-dark px-6 py-3 rounded-lg font-medium hover:bg-gray-100 hover:scale-[1.02] active:scale-95 transition-all duration-200"
+              >
+                Book Appointment
+                <FaCalendarAlt className="ml-1" />
+              </a>
+            </div>
+
+            {/* DECORATIVE DOTS */}
+            <div className="hidden md:block absolute right-10 top-55 -translate-y-1/2">
+              <div className="grid grid-cols-5 gap-4 opacity-30">
+                {Array.from({ length: 50 }).map((_, i) => (
+                  <div key={i} className="w-1 h-1 bg-white rounded-full"></div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
