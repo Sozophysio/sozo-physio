@@ -192,7 +192,7 @@ const Conditions = () => {
 
       {/* CTA SECTION */}
       <div className="w-full py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-6 md:px-8">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="bg-gradient-to-r from-[#165E7D] to-[#1B6E8F] rounded-2xl group p-6 md:p-10 flex flex-col md:flex-row items-center gap-14 relative overflow-hidden">
             {/* LEFT IMAGE */}
             <div className="w-full md:w-1/3 items-stretch">
