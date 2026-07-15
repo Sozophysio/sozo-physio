@@ -129,13 +129,10 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">CONTACT INFO</h4>
             <ul className="space-y-2 text-sm text-white/90 leading-relaxed">
               <li>SOZO PHYSIOTHERAPY & REHABILITATION SERVICES</li>
-              <li>13 Riverside Ave Werribee, Vic 3030</li>
-              <li>3024 (03) 9123 4567</li>
-              <li>info@sozophysio.com.au</li>
-              <li>
-                Mon - Fri: 8:00 AM - 7:00 PM <br />
-                Sat - 9:00 AM - 1:00 PM
-              </li>
+              <li>Address - 33 Princes Hwy, Werribee VIC 3030</li>
+              <li>+61-411423107</li>
+              <li>sozophysio@outlook.com</li>
+              <li>Friday - 2:00 PM to 7:00 PM</li>
             </ul>
           </div>
         </div>
