@@ -5,7 +5,7 @@ import ServicesSection from "../components/ServicesSection";
 import ConditionsSection from "../components/ConditionsSection";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Footer from "../components/Footer";
-import AnnouncementBar from "../components/announcementBar";
+import AnnouncementBar from "../components/AnnouncementBar";
 
 const Home = () => {
   return (
