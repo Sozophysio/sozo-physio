@@ -276,10 +276,19 @@ const Navbar = () => {
             About Us
           </NavLink>
 
-          <button className="w-full flex justify-center items-center gap-2 bg-accent text-white py-2.5 rounded-full">
+          {/* <button className="w-full flex justify-center items-center gap-2 bg-accent text-white py-2.5 rounded-full">
             Book Appointment
             <FaCalendarAlt />
-          </button>
+          </button> */}
+          <a
+            href="https://sozo-physiotherapy.au5.cliniko.com/bookings#service"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full flex justify-center items-center gap-2 bg-accent text-white py-2.5 rounded-full"
+          >
+            Book Appointment
+            <FaCalendarAlt />
+          </a>
         </div>
       )}
     </div>
